@@ -216,10 +216,7 @@ function validateContactForm() {
     } else if ($("#mce-Last_Name").val().length < 1) {
         isFormValid = false;
         $("#lNameError").show();
-    } else if ($("#mce-Message").val().length < 1) {
-        isFormValid = false;
-        $("#MMERGE6Error").show();
-    }
+    } 
     if (isFormValid) {
         clearContactFormErrors();
     }
@@ -239,7 +236,6 @@ function clearContactFormErrors() {
     $("#emailError").hide();
     $("#fNameError").hide();
     $("#lNameError").hide();
-    $("#MMERGE6Error").hide();
 }
 })(jQuery);
 
