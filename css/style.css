@@ -386,7 +386,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
-  color: #9ea09f;
+  color: #9ea09f !important;
 }
 
 .nav-menu > li {
