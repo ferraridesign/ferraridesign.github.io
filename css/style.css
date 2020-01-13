@@ -62,6 +62,10 @@ h6 {
   padding-top: 12px;
   color: #fff;
 }
+.back-to-top i:hover{
+  padding-top: 12px;
+  color: white;
+}
 
 /* Prelaoder */
 
@@ -986,7 +990,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item figure .link-preview:hover,
 #portfolio .portfolio-item figure .link-details:hover {
-  background: white;
+  background: #989494b8;
 }
 
 #portfolio .portfolio-item figure .link-preview:hover i,
