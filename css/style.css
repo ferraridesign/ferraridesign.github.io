@@ -62,8 +62,8 @@ h6 {
   padding-top: 12px;
   color: #fff;
 }
-.back-to-top i:hover{
-  padding-top: 12px;
+.back-to-top:hover{
+ 
   color: white;
 }
 
